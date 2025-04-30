@@ -2,7 +2,7 @@ package src;
 
 public class Main {
         public static void main(String[] args) {
-            iMediaStrategy estrategia = new Geometrica();      // troque por new Geometrica()
+            iMediaStrategy estrategia = new Aritmetica();      // troque por new Geometrica()
             Disciplina d = new Disciplina(estrategia);
 
             d.setNome("Padrões de Desenvolvimento");
